@@ -23,7 +23,7 @@ Page({
     app.globalData.photographList = []
     app.globalData.photographResultList = list
 
-    console.log('提交数据：',list)
+    console.log('提交数据：',JSON.stringify(list))
  
   },
   resetWxImageCamera(){
