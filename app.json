@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/upload/fancanvas/index"
+  ],
+  "entryPagePath": "pages/upload/fancanvas/index",
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom",
+    "pageOrientation":"portrait"
+  },
+  
+  "useExtendedLib": {
+    "weui": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

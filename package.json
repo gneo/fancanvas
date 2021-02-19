@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "coolui-scroller": "^2.0.1",
+    "miniprograms-navigation-bar": "^2.0.2"
+  }
+}

@@ -1,0 +1,25 @@
+
+<navBar title='裁剪' background='#fff' home="{{true}}" bindhome="handlerGohomeClick"></navBar>
+
+<view class="canvas-box">
+  <canvas type="2d" id="myCanvas"
+bindtouchstart="bindtouchstart"
+bindtouchmove="bindtouchmove"
+bindtouchend="bindtouchend"
+disable-scroll="true"
+style="width: 100%; height: {{size.height}}px;"></canvas>
+</view>
+
+<view class="fancanvas-footer-style">
+  <view class="fancanvas-page-size">{{currentPage}}/{{totalPage}}</view>
+  <view class="footer-l" bindtap="resetWxImageCamera">
+    <image class="footer-l-image" src="../../../assets/upload/upload-reset.png"></image>
+  </view>
+  <view class="footer-c" bindtap="confirmWxImageCamera">
+    <image class="footer-c-image" src="../../../assets/upload/upload-confirm.png"></image>
+  </view>
+  <view class="footer-r" bindtap="chooseWxImageCamera" wx:if="{{totalPage<8}}">
+    <image class="footer-r-image" src="../../../assets/upload/upload-add.png"></image>
+  </view>
+</view>
+

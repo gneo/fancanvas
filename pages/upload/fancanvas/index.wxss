@@ -1,0 +1,56 @@
+/* pages/fancanvas/index.wxss */
+Page {
+  background-color: #000000;
+}
+.fancanvas-footer-style {
+  padding: 0rpx 50rpx 30rpx 50rpx;
+  width: 100%;
+  background-color: #000000;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-l {
+  display: inline-block;
+  width: 33%;
+  text-align: left;
+}
+
+.footer-c {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+
+}
+
+.footer-r {
+  display: inline-block;
+  width: 33%;
+  text-align: right;
+}
+
+.footer-l-image {
+  width: 70rpx;
+  height: 70rpx;
+  vertical-align: middle;
+}
+
+.footer-c-image {
+  width: 130rpx;
+  height: 130rpx;
+  vertical-align: middle;
+}
+
+.footer-r-image {
+  width: 70rpx;
+  height: 70rpx;
+  vertical-align: middle;
+}
+
+.fancanvas-page-size{
+  font-size: 26rpx;
+  font-weight: 500;
+  color: #909399;
+  text-align: center;
+  padding: 10px;
+}

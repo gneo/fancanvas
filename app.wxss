@@ -1,0 +1,32 @@
+/**app.wxss**/
+/* pages {
+  position: relative;
+  z-index: 9999998;
+  background: #fff;
+} */
+
+.clearfix:after,
+.clearfix:before {
+  clear: both;
+  overflow: hidden;
+  content: "";
+  display: table;
+  zoom: 1;
+  visibility: hidden;
+}
+
+.userInfo-button{
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+  font-size: 17px;
+  background-color: #f8f8f800;
+}
+
+/* 空白 */
+.commit-form-top-blank{
+  width: 100%;
+  height: 20rpx;
+  background: #F7F7F7;
+}
+
